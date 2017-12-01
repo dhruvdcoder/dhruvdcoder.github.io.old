@@ -1,3 +1,8 @@
+/** root class for creating variables
+ */
+:root {
+	--dpheight:200px;
+}
 /**
  * Site header
  */
@@ -182,6 +187,11 @@
 .page-heading {
   @include relative-font-size(1.25);
 }
+.postslist {
+	position:relative;
+	
+	
+}
 
 .post-list {
   margin-left: 100;
@@ -190,16 +200,20 @@
   > li {
     margin-bottom: $spacing-unit;
   }
+
 }
 
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  h1 {
+     font-weight: calc(0.1*$base-font-weight);
+  }
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.2);
 }
 
 
@@ -248,3 +262,22 @@
     }
   }
 }
+.intro {
+	position:relative;
+	height:calc(1.5*var(--dpheight));
+	.display-pic {
+		position:absolute;
+		height: var(--dpheight);
+		float:left;
+	}
+	.intro-text {
+		position:absolute;
+		left:200px;
+	}
+
+  
+}
+.home-container {
+	position:absolute;
+}
+
