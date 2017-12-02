@@ -9,6 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: dhruvdplayer
 linkedin_username: dhruveshp
+disqus:
+   shortname: dhruvdplayer-github-personal
 plugins:
   - jekyll-feed 
   - jekyll-sitemap
