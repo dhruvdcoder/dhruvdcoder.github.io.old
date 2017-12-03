@@ -243,3 +243,14 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/**
+ * runbutton
+ */
+.runbutton {
+    background-image: linear-gradient(#ffffff,#eeeeee);
+        border-style:groove;
+        border-width:2px;
+		font-weight:bold;
+		cursor:pointer;
+}

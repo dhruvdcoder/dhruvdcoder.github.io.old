@@ -30,3 +30,7 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 gem 'jekyll-seo-tag'
+
+
+# Added at 2017-12-03 01:17:22 +0530 by dhruv:
+gem "jekyll_inline_highlight", "~> 3.0"
